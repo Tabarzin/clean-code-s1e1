@@ -6,18 +6,18 @@
   <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
 </head>
 <body class="page">
-  <div class="main-image"><img src="./eisenhower-matrix.jpg">
+  <header class="main-image"><img src="./eisenhower-matrix.jpg">
     <a class="more-info" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
-  </div>
-  <div class="container">
-    <p class="add-item">
+  </header>
+  <main class="container">
+    <section class="add-item">
       <label for="new-task">Add Item</label>
   <div class="add-item__row">
     <input id="new-task" class="task" type="text">
       <button>Add</button>
   </div>
-    </p>
-    <h3 class="h3">Todo</h3>
+    </section>
+    <section class="h3">Todo</section>
       <ul class="list" id="incomplete-tasks">
         <li ><input type="checkbox"><label class="task">Pay Bills</label>
             <input type="text" class="task"><button class="edit">Edit</button>
@@ -26,14 +26,14 @@
             <input type="text" value="Go Shopping" class="task"><button class="edit">Save</button>
             <button class="delete"><img src="./remove.svg"></button></li>
       </ul>
-    <h3 class="h3">Completed</h3>
+    <section class="h3">Completed</section>
       <ul class="list" id="completed-tasks">
         <li><input type="checkbox" checked><label class="task">See the Doctor</label>
             <input type="text" class="task"><button class="edit">Edit</button>
             <button class="delete"><img src="./remove.svg"></button>
         </li>
       </ul>
-  </div>
+    </main>
   <script type="text/javascript" src="app.js"></script>
 </body>
 </html>
